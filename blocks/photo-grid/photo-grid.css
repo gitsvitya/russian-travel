@@ -5,7 +5,9 @@
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   max-width: 1184px;
   padding: 92px 48px 0 48px;
+  justify-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 @media (max-width: 1279px) {
