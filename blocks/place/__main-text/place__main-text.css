@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+  .place__main-text {
+  padding-right: 16px;
+  padding-left: 16px;
+  }
+}
+

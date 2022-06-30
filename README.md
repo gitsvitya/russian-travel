@@ -21,3 +21,5 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+Сайт проекта: https://code.s3.yandex.net/web-plus/static/second-month/russian-travel-project/index.html
