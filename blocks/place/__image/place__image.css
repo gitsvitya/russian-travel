@@ -8,5 +8,6 @@
   .place__image {
     display: flex;
     justify-self: center;
+    transition: all 1s linear;
   }
 }

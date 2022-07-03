@@ -12,9 +12,8 @@
 @media (max-width: 767px) {
   .footer__copyright {
     text-align: left;
-    display: block;
-    padding-top: 48px;
-    font-size: 14px;
+    padding-top: 46px;
     line-height: 14px;
+    transition: all 1s linear;
   }
 }

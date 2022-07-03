@@ -14,5 +14,6 @@
   .lead__title {
     font-size: 40px;
     line-height: 44px;
+    transition: all 1s linear;
   }
 }

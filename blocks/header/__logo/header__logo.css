@@ -1,5 +1,6 @@
 @media (max-width: 767px) {
   .header__logo {
     height: 42px;
+    transition: all 1s linear;
   }
 }

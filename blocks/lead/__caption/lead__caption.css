@@ -9,19 +9,20 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  /* max-width: 158px;
-  max-height: 14px; */
   align-self: flex-start;
 }
 
 @media (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
+    transition: all 1s linear;
   }
 }
 
 @media (max-width: 767px) {
   .lead__caption {
-    padding-left: 18px;
+    padding-left: 16px;
+    padding-top: 5px;
+    transition: all 1s linear;
   }
 }

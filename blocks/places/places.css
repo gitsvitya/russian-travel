@@ -5,23 +5,23 @@
   padding: 92px 148px 0 148px;
 }
 
-@media (max-width: 1279px)
-{
+@media (max-width: 1279px) {
   .places {
     padding: 92px 48px 0 48px;
+    transition: all 1s linear;
   }
 }
 
-@media (max-width: 1023px)
-{
+@media (max-width: 1023px) {
   .places {
     padding: 88px 24px 0 24px;
+    transition: all 1s linear;
   }
 }
 
-@media (max-width: 767px)
-{
+@media (max-width: 767px) {
   .places {
     padding: 64px 0 0 0;
+    transition: all 1s linear;
   }
 }

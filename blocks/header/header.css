@@ -8,13 +8,15 @@
 }
 
 @media (max-width: 1279px) {
-  .header{
+  .header {
     padding: 28px 24px 0 24px;
+    transition: all 1s linear;
   }
 }
 
 @media (max-width: 767px) {
-  .header{
+  .header {
     padding: 16px 16px 0 16px;
+    transition: all 1s linear;
   }
 }

@@ -10,11 +10,13 @@
 @media (max-width: 1279px) {
   .lead {
     padding: 48px 48px 0 48px;
+    transition: all 1s linear;
   }
 }
 
 @media (max-width: 1023px) {
   .lead {
     padding: 48px 0 0 0;
+    transition: all 1s linear;
   }
 }

@@ -16,11 +16,15 @@
 @media (max-width: 1279px) {
   .place__paragraph {
     padding-bottom: 27px;
+    transition: all 1s linear;
   }
 }
 
 @media (max-width: 1023px) {
   .place__paragraph {
     padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    transition: all 1s linear;
   }
 }

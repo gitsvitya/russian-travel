@@ -1,21 +1,26 @@
-.cover{
-  max-width: 1184px;
+.cover {
   padding: 92px 48px 0 48px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 1279px) {
-  .cover{
+  .cover {
     padding: 92px 0 0 0;
+    transition: all 1s linear;
   }
 }
+
 @media (max-width: 1023px) {
-  .cover{
+  .cover {
     padding: 90px 0 0 0;
+    transition: all 1s linear;
   }
 }
+
 @media (max-width: 767px) {
-  .cover{
+  .cover {
     padding: 66px 0 0 0;
+    min-height: 200px;
+    transition: all 1s linear;
   }
 }
