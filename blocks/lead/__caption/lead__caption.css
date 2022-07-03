@@ -10,12 +10,13 @@
   text-transform: uppercase;
   color: #FFFFFF;
   align-self: flex-start;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
-    transition: all 1s linear;
+    padding-top: 5px;
   }
 }
 
@@ -23,6 +24,5 @@
   .lead__caption {
     padding-left: 16px;
     padding-top: 5px;
-    transition: all 1s linear;
   }
 }

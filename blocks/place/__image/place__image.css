@@ -1,13 +1,26 @@
 .place__image {
   max-width: 460px;
   max-height: 460px;
-  width: 100%;
+  transition: all 0.5s linear;
 }
 
-@media (max-width:768px) {
+@media (max-width: 1279px) {
   .place__image {
-    display: flex;
-    justify-self: center;
-    transition: all 1s linear;
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__image {
+    max-width: 320px;
+    max-height: 320px;
   }
 }

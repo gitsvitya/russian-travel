@@ -4,11 +4,11 @@
   flex-flow: column;
   flex-wrap: wrap;
   justify-content: end;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 767px) {
   .place__website {
     padding: 0 16px 0 16px;
-    transition: all 1s linear;
   }
 }

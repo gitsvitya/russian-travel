@@ -3,13 +3,13 @@
   padding: 92px 48px 24px 48px;
   max-width: 1184px;
   justify-content: space-between;
-  flex-direction: column;
+  /* gap: 533px; */
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 1023px) {
   .footer {
     padding: 88px 24px 24px 24px;
-    transition: all 1s linear;
   }
 }
 
@@ -17,6 +17,7 @@
   .footer {
     display: flex;
     padding: 64px 118px 24px 16px;
-    transition: all 1s linear;
+    flex-direction: column;
+    gap: 48px;
   }
 }

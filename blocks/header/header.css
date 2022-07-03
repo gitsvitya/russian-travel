@@ -5,18 +5,17 @@
   justify-content: space-between;
   padding: 28px 48px 0 48px;
   max-width: 1184px;
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1023px) {
   .header {
     padding: 28px 24px 0 24px;
-    transition: all 1s linear;
   }
 }
 
 @media (max-width: 767px) {
   .header {
     padding: 16px 16px 0 16px;
-    transition: all 1s linear;
   }
 }

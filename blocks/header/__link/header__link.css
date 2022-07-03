@@ -5,17 +5,16 @@
   line-height: 28px;
   font-style: normal;
   font-weight: 400;
+  transition: all 0.5s linear;
 }
 
 .header__link:hover {
   opacity: 0.8;
-  transition: all 0.5s linear;
 }
 
 @media (max-width: 767px) {
   .header__link {
     font-size: 18px;
     line-height: 20px;
-    transition: all 1s linear;
   }
 }

@@ -7,13 +7,20 @@
   line-height: 76px;
   color: #FFFFFF;
   max-width: 460px;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1279px) {
+  .place__title {
+    max-width: 440px;
+  }
 }
 
 @media (max-width: 1023px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    transition: all 1s linear;
+    max-width: 340px;
   }
 }
 
@@ -22,6 +29,5 @@
     font-size: 32px;
     line-height: 35px;
     padding: 0 16px 0 16px;
-    transition: all 1s linear;
   }
 }

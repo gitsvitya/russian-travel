@@ -1,19 +1,18 @@
 .cover {
   padding: 92px 48px 0 48px;
   margin: 0 auto;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 1279px) {
   .cover {
     padding: 92px 0 0 0;
-    transition: all 1s linear;
   }
 }
 
 @media (max-width: 1023px) {
   .cover {
     padding: 90px 0 0 0;
-    transition: all 1s linear;
   }
 }
 
@@ -21,6 +20,5 @@
   .cover {
     padding: 66px 0 0 0;
     min-height: 200px;
-    transition: all 1s linear;
   }
 }

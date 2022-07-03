@@ -11,19 +11,18 @@
   max-width: 360px;
   margin: 0 auto;
   padding-bottom: 245px;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 1279px) {
   .cover__subtitle {
     padding-bottom: 195px;
-    transition: all 1s linear;
   }
 }
 
 @media (max-width: 1023px) {
   .cover__subtitle {
     padding-bottom: 115px;
-    transition: all 1s linear;
   }
 }
 
@@ -33,6 +32,5 @@
     padding-top: 16px;
     font-size: 14px;
     line-height: 16px;
-    transition: all 1s linear;
   }
 }

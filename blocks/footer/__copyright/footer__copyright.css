@@ -7,13 +7,12 @@
   line-height: 16px;
   text-align: right;
   color: #FFFFFF;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 767px) {
   .footer__copyright {
     text-align: left;
-    padding-top: 46px;
     line-height: 14px;
-    transition: all 1s linear;
   }
 }

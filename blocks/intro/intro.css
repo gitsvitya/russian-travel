@@ -2,12 +2,12 @@
   max-width: 690px;
   padding-top: 92px;
   padding-left: 148px;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 1279px) {
   .intro {
     padding-left: 48px;
-    transition: all 1s linear;
   }
 }
 
@@ -16,7 +16,6 @@
     padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
-    transition: all 1s linear;
   }
 }
 
@@ -25,6 +24,5 @@
     padding-top: 64px;
     padding-left: 16px;
     padding-right: 16px;
-    transition: all 1s linear;
   }
 }

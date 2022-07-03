@@ -1,11 +1,17 @@
 .lead__image {
   width: 100%;
   padding-top: 64px;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1279px) {
+  .lead__image {
+    padding-top: 56px;
+  }
 }
 
 @media (max-width: 767px) {
   .lead__image {
     padding-top: 40px;
-    transition: all 1s linear;
   }
 }

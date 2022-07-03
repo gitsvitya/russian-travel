@@ -6,12 +6,12 @@
   font-size: 54px;
   line-height: 58px;
   color: #FFFFFF;
+  transition: all 0.5s linear;
 }
 
 @media (max-width: 767px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    transition: all 1s linear;
   }
 }
